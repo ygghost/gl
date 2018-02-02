@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding='gb2312'?>
+<module name="gl">
+  <public>
+	<component priority="0" singleton="true" remote="true" tx="CMT" supportAlias="true">
+	  <interface>nc.itf.gl.IGl_budgetMaintain</interface>
+	  <implementation>nc.impl.gl.Gl_budgetMaintainImpl</implementation>
+	</component>
+
+  </public> 
+</module> 
